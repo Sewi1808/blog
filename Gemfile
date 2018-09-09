@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem 'simple_form', '~> 4.0', '>= 4.0.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'haml', '~> 5.0', '>= 5.0.4'
