@@ -2,3 +2,6 @@
 - @posts.each do |post|
   .post
   %h2= link_to post.title, post
+  %small
+    Created by:
+    = post.user.email
